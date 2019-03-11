@@ -1,0 +1,17 @@
+.kpap-tooltip-icon:before {
+    cursor: help;
+    content: "\f223";
+    font: 400 20px/1 dashicons!important;
+    vertical-align: middle;
+}
+
+.kpap-tooltip-text {
+    background: #333 !important;
+    border-radius: 3px !important;
+    box-shadow: 1px 1px 2px 1px rgba(214, 214, 214, 0.5);
+    color: #dedede !important;
+    max-width: 400px;
+    padding: 20px;
+    text-rendering: optimizeLegibility;
+    z-index: 9999;
+}
